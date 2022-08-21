@@ -1,0 +1,206 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    background-image: url(../images/biriyani-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: rgba(155, 93, 0, 0.7);
+}
+
+.header h1{
+    margin: 0;
+    text-align: center;
+    padding: 8px 0;
+    color: #ffffb0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.header li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #ffffb0;
+    background-color: #dba547;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px 4px 0 0;
+    cursor: pointer;
+}
+
+.home-body{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.welcome{
+    color: #ffecb3;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.more-detail{
+    background-color: rgba(114, 91, 83, 0.9);
+    width: clamp(300px, 70%, 1000px);
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;align-items: center;
+}
+
+.more-detail h3{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+}
+
+.more-detail p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 12px 0;
+}
+
+#home-order{
+    font-size: 16px;
+    width: 200px;
+    height: 36px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.menu-body, .about-body{
+    background-color: rgba(255, 255, 255, 0.7);
+    /* height: 100%; */
+    padding: 24px 48px;
+}
+
+.menu-info{
+    font-size: 24px;
+    color: rgb(58, 35, 1);
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-grid{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content: space-around;  
+    /* gap: 128px; */
+}
+
+.menu-item{
+    background-color: #f8cc53;
+    padding: 32px;
+    margin: 16px;
+    border-radius: 16px;
+}
+
+.item-header{
+    display: flex;
+    justify-content: center;
+}
+
+.item-header h2{
+    margin: -6px 0 0 4px ;
+    padding: 0;
+    text-align: center;
+}
+
+.variants{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.variants li{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.variants li p{
+    margin: 8px 0;
+    padding: 0;
+}
+
+.price{
+    width: 48px;
+    height: 24px;
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-body{
+    text-align: center;
+    color: rgb(58, 35, 1);
+}
+
+.about-body > div > h3{
+    margin: 0;
+}
+
+.about-body > div > p{
+    margin: 4px;
+}
+.about-body > div{
+    margin: 8px 0;
+    padding: 8px;
+}
+
+
+.locations > div {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.loc{
+    width: 300px;
+}
+
+.loc p{
+    margin: 0;
+}
+
+/* *{
+    border: 1px solid red;
+} */
